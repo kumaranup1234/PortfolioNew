@@ -5,6 +5,7 @@ import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
 import Footer from './Footer';
+import Education from "./Education.jsx";
 
 const Portfolio = () => {
     return (
@@ -12,6 +13,7 @@ const Portfolio = () => {
             <div className="container mx-auto px-4 py-8">
                 <Header />
                 <About />
+                <Education />
                 <Skills />
                 <Projects />
                 <Footer />
