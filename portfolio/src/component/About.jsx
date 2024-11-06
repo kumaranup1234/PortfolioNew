@@ -45,7 +45,7 @@ const AboutMeSection = () => {
                     </button>
                 </div>
             </div>
-            <p className="text-sm sm:text-center lg:text-left dark:text-customGray">
+            <p className="text-sm sm:text-center lg:text-left text-gray-600 dark:text-customGray">
                 Full Stack and DevOps Engineer focused on learning through experimentation and product development.
                 Results-driven Freelance/Intern Developer specializing in designing and developing scalable and robust
                 software/web applications.

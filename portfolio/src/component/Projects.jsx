@@ -49,7 +49,7 @@ const Projects = () => {
                                 </button>
                             </div>
                         </div>
-                        <p className="mt-2 dark:text-customGray">{project.description}</p>
+                        <p className="mt-2 dark:text-customGray text-gray-600">{project.description}</p>
                         <div className="mt-4">
                             {project.techStack.map((tech, idx) => (
                                 <span
