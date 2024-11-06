@@ -29,7 +29,7 @@ const Projects = () => {
                                 {project.title}
                             </h3>
                             <div className="flex space-x-2">
-                                <button className="hover:bg-gray-600 dark:text-white inline-flex items-center justify-center rounded-md h-10 w-10">
+                                <button className="hover:bg-gray-200 dark:hover:bg-gray-600 dark:text-white inline-flex items-center justify-center rounded-md h-10 w-10">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                          fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                          strokeLinejoin="round" className="lucide lucide-github h-4 w-4">
@@ -38,7 +38,7 @@ const Projects = () => {
                                         <path d="M9 18c-4.51 2-5-2-7-2"></path>
                                     </svg>
                                 </button>
-                                <button className="hover:bg-gray-600 dark:text-white inline-flex items-center justify-center rounded-md h-10 w-10">
+                                <button className="hover:bg-gray-200 dark:hover:bg-gray-600 dark:text-white inline-flex items-center justify-center rounded-md h-10 w-10">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                          fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                          strokeLinejoin="round" className="lucide lucide-external-link h-4 w-4">
